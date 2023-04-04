@@ -1,0 +1,53 @@
+.square-container {
+  padding-top: 10%;
+  position: relative; 
+}
+
+.square {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border: solid 1px black;
+}
+
+.mine {
+  background-image: url("../public/pngegg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: red;
+}
+
+.hidden {
+  background-image: url("../public/qmark.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
+  background-color: grey;
+}
+
+.board-container {
+  border: solid 5px blue;
+}
+
+.gameover {
+  position: absolute;
+  top: 40%;
+  color: red;
+  font-size: 500%;
+  font-weight: bolder;
+}
+
+.gamewon {
+  position: absolute;
+  top: 40%;
+  color: green;
+  font-size: 500%;
+  font-weight: bolder;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
